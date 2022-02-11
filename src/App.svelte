@@ -1,6 +1,6 @@
 <script>
   import Header from './lib/Header.svelte'
-  // import MainContent from './lib/MainContent.svelte'
+  import MainContent from './lib/MainContent.svelte'
   // import Footer from './lib/Footer.svelte'
 </script>
 
@@ -17,8 +17,11 @@
   />
 </svelte:head>
 
-<div class="font-barlow min-h-screen flex flex-col">
+<div class="font-barlow min-h-screen flex flex-col relative">
+  <div
+    class="bg-cstm-neutral-light-grayish-blue absolute top-0 right-0 w-1/2 h-1/2 rounded-bl-[4rem] -z-10"
+  />
   <Header />
-  <!-- <MainContent /> -->
+  <MainContent />
   <!-- <Footer /> -->
 </div>

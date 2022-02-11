@@ -21,7 +21,7 @@
     <ul
       class={`${
         navIsOpen
-          ? 'absolute top-14 w-full font-bold uppercase font-barlow-condensed flex flex-col justify-center items-center gap-3 shadow-lg p-5'
+          ? 'absolute top-14 w-full font-bold uppercase font-barlow-condensed flex flex-col justify-center items-center gap-3 shadow-lg p-5 bg-white z-10'
           : 'hidden'
       }`}
     >
