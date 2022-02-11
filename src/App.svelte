@@ -1,7 +1,7 @@
 <script>
+  import Footer from './lib/Footer.svelte'
   import Header from './lib/Header.svelte'
   import MainContent from './lib/MainContent.svelte'
-  import Footer from './lib/Footer.svelte'
 </script>
 
 <svelte:head>
