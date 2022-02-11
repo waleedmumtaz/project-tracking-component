@@ -17,7 +17,7 @@
   />
 </svelte:head>
 
-<div class="font-barlow">
+<div class="font-barlow min-h-screen flex flex-col">
   <Header />
   <!-- <MainContent /> -->
   <!-- <Footer /> -->
