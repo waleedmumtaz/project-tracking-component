@@ -8,7 +8,7 @@
 
 <header class="p-8">
   <!-- Mobile nav -->
-  <nav class="flex justify-between items-center relative">
+  <nav class="flex justify-between items-center relative md:hidden">
     <img src="/assets/logo.svg" alt="logo" />
     <button on:click={toggleNav}>
       <img
@@ -31,5 +31,23 @@
       <div class="w-full h-[1px] bg-cstm-neutral-grayish-blue" />
       <li class="text-cstm-neutral-grayish-blue"><a href="/#">Login</a></li>
     </ul>
+  </nav>
+
+  <!-- Desktop nav -->
+  <nav class="hidden md:block container mx-auto p-10">
+    <div class="flex justify-between items-center">
+      <img src="/assets/logo.svg" alt="logo" />
+      <ul
+        class="flex items-center gap-16 font-bold uppercase font-barlow-condensed"
+      >
+        <li class="hover:underline"><a href="/#">Product</a></li>
+        <li class="hover:underline"><a href="/#">Features</a></li>
+        <li class="hover:underline"><a href="/#">Pricing</a></li>
+        <div class="w-1.5 h-1.5 bg-cstm-neutral-grayish-blue rounded-full" />
+        <li class="hover:underline text-cstm-neutral-grayish-blue">
+          <a href="/#">Login</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 </header>

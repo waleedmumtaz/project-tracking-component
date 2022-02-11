@@ -1,7 +1,7 @@
 <script>
   import Header from './lib/Header.svelte'
   import MainContent from './lib/MainContent.svelte'
-  // import Footer from './lib/Footer.svelte'
+  import Footer from './lib/Footer.svelte'
 </script>
 
 <svelte:head>
@@ -23,5 +23,5 @@
   />
   <Header />
   <MainContent />
-  <!-- <Footer /> -->
+  <Footer />
 </div>
