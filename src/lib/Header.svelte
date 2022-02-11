@@ -28,7 +28,10 @@
       <li><a href="/#">Product</a></li>
       <li><a href="/#">Features</a></li>
       <li><a href="/#">Pricing</a></li>
-      <div class="w-full h-[1px] bg-cstm-neutral-grayish-blue" />
+      <li
+        aria-hidden="true"
+        class="w-full h-[1px] bg-cstm-neutral-grayish-blue"
+      />
       <li class="text-cstm-neutral-grayish-blue"><a href="/#">Login</a></li>
     </ul>
   </nav>
@@ -43,7 +46,10 @@
         <li class="hover:underline"><a href="/#">Product</a></li>
         <li class="hover:underline"><a href="/#">Features</a></li>
         <li class="hover:underline"><a href="/#">Pricing</a></li>
-        <div class="w-1.5 h-1.5 bg-cstm-neutral-grayish-blue rounded-full" />
+        <li
+          aria-hidden="true"
+          class="w-1.5 h-1.5 bg-cstm-neutral-grayish-blue rounded-full"
+        />
         <li class="hover:underline text-cstm-neutral-grayish-blue">
           <a href="/#">Login</a>
         </li>
